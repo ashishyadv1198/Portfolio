@@ -1,54 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-16">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple HTML template with external CSS and Font Awesome icons.">
-    <meta name="author" content="Ashish Yadav">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Portfolio Skeleton</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashish Kumar Yadav</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is a simple HTML template with external CSS and Font Awesome icons.</p>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <h1>Welcome to my Portfolio</h1>
+    <p>Full-Stack MERN Developer | Web3 Enthusiast | DSA in Java</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <h2>Hi, I'm Ashish 👋</h2>
+    <p>I build web applications and solve problems with code. Let’s create something impactful together!</p>
+    <a href="#contact">Hire Me</a>
+    <a href="#projects">View Projects</a>
+  </section>
+
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-image">
+        <img src="image.jpg" alt="Ashish Yadav">
+      </div>
+  
+      <div class="hero-text">
+        <h1>Hi, I'm Ashish <span>👋</span></h1>
+        
+        <p>I am a third year CS student who loves building apps and websites that are useful.</p>
+        
+        <p>I am very active on <a href="https://twitter.com/yourhandle" target="_blank"><u>x/twitter</u></a> where I share my learning journey and make new friends.</p>
+  
         <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/yourhandle" target="_blank">🐙</a>
+          <a href="https://linkedin.com/in/yourhandle" target="_blank">in</a>
+          <a href="https://instagram.com/yourhandle" target="_blank">📸</a>
+          <a href="https://x.com/yourhandle" target="_blank">X</a>
+          <a href="https://discord.com/users/yourhandle" target="_blank">🎮</a>
         </div>
-    </section>
-    <section>
-        <article>
-            <h2>My Projects</h2>
-            <p>Here are some of my latest projects:</p>
-            <aside>
-                <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
-        </aside>
-            <p>For more details, visit my <a href="#">GitHub</a> profile.</p>
-        </article>
-    </section>
-    <footer>
-        <p>&copy2023 My Portfolio<pre> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p> 
-            <p><pre>Made with 💓 by Ashish | <a href="#">GitHub</a></p>
-    </footer>
+  
+        <div class="availability-badge">
+          <span>open for work</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>(loreum)</p>
+    <ul>
+      <li>🎯 Focused on Full Stack MERN + Web3</li>
+      <li>💼 Aspiring SWE in a top product-based company</li>
+      <li>🧠 Loves DSA in Java and Competitive Programming</li>
+      <li>🏋️ Fitness and productivity enthusiast</li>
+    </ul>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>Tech Stack</h3>
+    <ul>
+      <li>Frontend: HTML, CSS, JavaScript, React, Tailwind</li>
+      <li>Backend: Node.js, Express.js</li>
+      <li>Database: MongoDB, Firebase</li>
+      <li>Blockchain: Solidity, Smart Contracts (basic)</li>
+      <li>Languages: Java, JavaScript, TypeScript</li>
+      <li>Tools: Git, VS Code, Postman, Netlify, Vercel</li>
+    </ul>
+
+    <h3>Other Skills</h3>
+    <ul>
+      <li>DSA (Java)</li>
+      <li>Problem-Solving</li>
+      <li>System Design (Basic)</li>
+      <li>Teamwork & Communication</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+      <h3>🧠 2D Metaverse Platform (Work in Progress)</h3>
+      <p>(loreum)</p>
+      <ul>
+        <li>Tech Used: MERN, WebRTC, Three.js, Smart Contracts</li>
+        <li>Features: Video meetings, App integration, Custom avatars</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>💬 ChatSphere - Realtime Chat App</h3>
+      <p>(loreum)</p>
+      <ul>
+        <li>Tech Used: React, Firebase, Tailwind</li>
+        <li>Features: Realtime messaging, Google auth</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>🌐 Portfolio Website</h3>
+      <p>(loreum)</p>
+      <ul>
+        <li>Tech Used: HTML, CSS, JavaScript</li>
+        <li>Features: Mobile-friendly, Interactive UI</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <article>
+      <h3>Frontend Developer Intern – ABC Company</h3>
+      <p>June 2024 - Aug 2024</p>
+      <p>(loreum)</p>
+    </article>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Meta Front-End Developer Certification – Coursera</li>
+      <li>Blockchain Essentials – IBM</li>
+      <li>Java Programming Masterclass – Udemy</li>
+    </ul>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      <p>“Ashish is a focused and driven developer with excellent problem-solving skills. Highly recommend!”</p>
+      <cite>– Pallavit Saxena, Senior Coder</cite>
+    </blockquote>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section id="blog">
+    <h2>Blog</h2>
+    <ul>
+      <li><strong>Top 10 React Interview Questions</strong> – April 2025</li>
+      <li><strong>Why You Should Learn Web3 Now</strong> – March 2025</li>
+      <li><strong>Mastering DSA with Java: A Roadmap</strong> – February 2025</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message"></textarea><br />
+
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Ashish Kumar Yadav. All rights reserved.</p>
+    <ul>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">LeetCode</a></li>
+    </ul>
+  </footer>
+
 </body>
 </html>
